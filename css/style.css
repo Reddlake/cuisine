@@ -63,7 +63,7 @@ nav a {
 /* MAIN
 /**********************************************************/
 main {
-     background:url(./images/topSushi.jpg), url(./images/gradient.jpg);
+     background:url(../images/topSushi.jpg), url(../images/gradient.jpg);
      background-repeat:no-repeat, no-repeat;
      background-size: contain, cover;
      background-position: 100% ;
