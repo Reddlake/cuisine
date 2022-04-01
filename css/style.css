@@ -1,0 +1,393 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+:root {
+     font-size: 10px;
+
+}
+body {
+     background-color: #2b2b31;
+     margin: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/***********************************************
+/* HEADER
+/************************************************/
+header {
+     width: 100%;
+     height: auto;
+     position: fixed;
+     top: 0;
+     z-index: 3;
+     background: #2b2b31;
+}
+nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     gap: 7rem;
+}
+nav ul li {
+     list-style: none;
+}
+nav a {
+     text-decoration: none;
+     font-size: 1.8rem;
+     color: white;
+}
+
+/*******************************************************
+/* MAIN
+/**********************************************************/
+main {
+     background:url(/images/topSushi.jpg), url(/images/gradient.jpg);
+     background-repeat:no-repeat, no-repeat;
+     background-size: contain, cover;
+     background-position: 100% ;
+     height: auto;
+     width: 95%;
+     margin: 3% auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+section.description {
+     position: relative;
+     width: 50%;
+}
+section.description h1 {
+     font-size: 8rem;
+     color:white;
+}
+.description a, .description input {
+     font-size: 2rem;
+     padding: 1rem;
+}
+.description a {
+     text-decoration: none;
+     border: .2rem solid black;
+     border-radius: 0% 10% 10% 0%;
+     background:orange;
+     color: white;
+}
+
+.description input {
+     border-radius: 10% 0% 0% 10%;
+}
+.socialMediaContainer {
+     width: 55%;
+}
+.socialMedia {
+     display: flex;
+     gap: 10rem;
+}
+.socialMediaList {
+     margin-left: -2rem;
+}
+.fa-brands {
+     color:orange;
+     font-size: 2rem;
+}
+.socialMedia span {
+     color: white;
+     font-size: 2rem;
+     padding-left: 1rem;
+}
+/********************************************************
+/* ABOUT US
+******************************************************/
+#aboutUs {
+     background: url(/images/aboutSushi.jpg);
+     background-repeat: no-repeat;
+     height: auto;
+     width: 95%;
+     margin: 2% auto;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     color:white;
+   
+     align-items: flex-end;
+}
+#aboutUs h4, #aboutUs h2 {
+     align-self: center;
+}
+
+#aboutUs h4, #aboutUs h2, #aboutUs p {
+     background: rgba(112, 128, 144, 0.575);
+}
+#aboutUs h4 {
+     font-size: 3rem;
+}
+#aboutUs h2 {
+     font-size: 5rem;
+}
+#aboutUs p {
+     font-size: 4rem;
+     width: 50%;
+     margin-right:5rem;
+}
+
+#aboutUs a {
+     font-size: 3rem;
+     border: 2px solid black;
+     padding: 1.5rem;
+     background: orange;
+     color: black;
+     justify-self: center;
+     align-self: center;
+     text-decoration: none;
+}
+
+
+/*****************************************
+/* MENU
+/********************************************/
+
+#menu {
+     width: 95%;
+     height: auto;
+     margin: 2% auto;
+     color: white;
+}
+#menu h4 {
+     font-size: 3rem;
+     margin-bottom: 0;
+}
+#menu h2{
+     font-size: 5rem;
+}
+
+.menuHeadLine {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.menuList {
+     display: flex;
+     justify-content: center;
+     gap: 10rem;
+     font-size: 3.5rem;
+     list-style: none;
+     text-decoration: underline;
+}
+.menuItemsContainer{
+     width: 98%;
+     height: 50%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 1rem;
+}
+.menuItems {
+     border:2px solid black;
+     height: 40rem;
+     width: 35rem;
+}
+.shrimpNigiri {
+     background:url(/images/shrimpNigiri.jpg);
+     background-position: 40% 0;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.salmonNigiri {
+     background: url(/images/salmonNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size: 60rem;
+     background-position: 50% 100%;
+}
+.tunaNigiri {
+     background: url(/images/tunaNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position: 40% 0;
+}
+.lobsterNigiri {
+     background: url(/images/lobsterNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size: 60rem;
+     background-position:20% 100%;
+}
+.unagiNigiri {
+     background: url(/images/unagiNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position:50% 0;
+}
+.octupusNigiri {
+     background: url(/images/octupusNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:50% 0;
+}
+.squidNigiri {
+     background: url(/images/squidNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     background-position:50% 0;
+}
+.halibutNigiri {
+     background: url(/images/halibutNigiri.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position:50% 0;
+}
+/***********************************************************
+/* BOOKING
+/*********************************************************/
+
+#bookContainer {
+     width: 95%;
+     margin: 3% auto;
+     height: fit-content;
+     background: url(/images/bookingSushi.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:white;
+}
+.bookHeadLine {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.bookHeadLine h4 {
+     margin-bottom:0;
+}
+.bookHeadLine h4, .call {
+     font-size: 3rem;
+}
+.call {
+     margin-top: 1rem;
+}
+.callLink {
+     text-decoration: none;
+     color: orange;
+}
+.phoneNumber {
+     color: orange;
+}
+.bookHeadLine h2, .phoneNumber {
+     font-size: 5rem;
+}
+.fa-phone {
+     font-size: 5rem;
+     color: orange;
+     border: .2rem solid orange;
+     border-radius: 50%;
+     padding: 2.5rem;
+}
+.callLink {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.hoursContainer {
+     width: 95%;
+     display: flex;
+     justify-content: center;
+     gap: 60rem;
+}
+.mondayThursday, .fridaySunday {
+     display: flex;
+     flex-direction: column;
+}
+.mondayThursday > h3, .fridaySunday > h3 {
+     font-size: 3rem;
+}
+.mondayThursday span, .fridaySunday span {
+     font-size: 5rem;
+}
+.vidContainer {
+     display: flex;
+     justify-content: center;
+     margin-top: 2rem;
+}
+.vidContainer > iframe {
+     width: 80rem;
+     height: 40rem;
+}
+
+
+/***********************************************
+/*TESTIMONIALS
+/*************************************************/
+
+
+#testimonials {
+     width: 95%;
+     display: flex;
+     flex-direction: column;
+     align-items:  center;
+     color: white;
+}
+.testimonialsList {
+     display: flex;
+     gap: 1rem;
+}
+.testimonialsList li {
+     list-style: none;
+}
+#testimonials img {
+     width: auto;
+     height: 20rem;
+     border-radius: 50%;
+}
+#testimonials h4 {
+     font-size: 3rem;
+     margin-bottom: 0;
+}
+#testimonials h2 {
+     font-size: 5rem;
+}
+#testimonials ul {
+     margin-right: 3rem;
+}
+.fa-star {
+     color: gold;
+     font-size: 1.6rem;
+}
+.testimonialName {
+     font-size: 1.6rem;
+     padding: 1rem;
+}
+.testimonial {
+     font-size: 1.8rem;
+}
+/**************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media screen and (min-width:320px) {
+     .hoursContainer {
+          gap: 14rem;     
+}
+}
+@media screen and (min-width:1440px) {
+     .hoursContainer {
+          gap:60rem;
+     }
+}
