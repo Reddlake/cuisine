@@ -120,7 +120,7 @@ section.description h1 {
 /* ABOUT US
 ******************************************************/
 #aboutUs {
-     background: url(/images/aboutSushi.jpg);
+     background: url(../images/aboutSushi.jpg);
      background-repeat: no-repeat;
      height: auto;
      width: 95%;
@@ -208,19 +208,19 @@ section.description h1 {
      width: 35rem;
 }
 .shrimpNigiri {
-     background:url(/images/shrimpNigiri.jpg);
+     background:url(../images/shrimpNigiri.jpg);
      background-position: 40% 0;
      background-repeat: no-repeat;
      background-size: cover;
 }
 .salmonNigiri {
-     background: url(/images/salmonNigiri.jpg);
+     background: url(../images/salmonNigiri.jpg);
      background-repeat: no-repeat;
      background-size: 60rem;
      background-position: 50% 100%;
 }
 .tunaNigiri {
-     background: url(/images/tunaNigiri.jpg);
+     background: url(../images/tunaNigiri.jpg);
      background-repeat: no-repeat;
      background-size:cover;
      background-position: 40% 0;
@@ -232,25 +232,25 @@ section.description h1 {
      background-position:20% 100%;
 }
 .unagiNigiri {
-     background: url(/images/unagiNigiri.jpg);
+     background: url(../images/unagiNigiri.jpg);
      background-repeat: no-repeat;
      background-size:cover;
      background-position:50% 0;
 }
 .octupusNigiri {
-     background: url(/images/octupusNigiri.jpg);
+     background: url(../images/octupusNigiri.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position:50% 0;
 }
 .squidNigiri {
-     background: url(/images/squidNigiri.jpg);
+     background: url(../images/squidNigiri.jpg);
      background-repeat: no-repeat;
      background-size:cover;
      background-position:50% 0;
 }
 .halibutNigiri {
-     background: url(/images/halibutNigiri.jpg);
+     background: url(../images/halibutNigiri.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      background-position:50% 0;
@@ -263,7 +263,7 @@ section.description h1 {
      width: 95%;
      margin: 3% auto;
      height: fit-content;
-     background: url(/images/bookingSushi.jpg);
+     background: url(../images/bookingSushi.jpg);
      background-repeat: no-repeat;
      background-size: cover;
      color:white;
