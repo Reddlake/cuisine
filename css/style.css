@@ -226,7 +226,7 @@ section.description h1 {
      background-position: 40% 0;
 }
 .lobsterNigiri {
-     background: url(/images/lobsterNigiri.jpg);
+     background: url(../images/lobsterNigiri.jpg);
      background-repeat: no-repeat;
      background-size: 60rem;
      background-position:20% 100%;
